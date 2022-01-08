@@ -101,10 +101,10 @@ function HomePage() {
           //allows you to connect and switch between mainnet and rinkeby within Metamask.
           chainId: [1, 4],
         },
-        fortmatic: {
-          chainId: [1],
-          apiKey: '',
-        },
+        // fortmatic: {
+        //   chainId: [1],
+        //   apiKey: '',
+        // },
         portis: {
           dAppId: '',
           chainId: [1],
@@ -113,10 +113,10 @@ function HomePage() {
           chainId: [1],
           rpcUrl: 'https://mainnet.eth.aragon.network/',
         },
-        walletlink: {
-          chainId: [1],
-          url: 'https://mainnet.eth.aragon.network/',
-        },
+        // walletlink: {
+        //   chainId: [1],
+        //   url: 'https://mainnet.eth.aragon.network/',
+        // },
       }}
     >
       <App />
@@ -153,11 +153,11 @@ function HomePage() {
           .connect-label {
             margin-bottom: 1rem;
           }
-          .connect-buttons {
-            display: grid;
-            gap: 10px;
-            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-          }
+          // .connect-buttons {
+          //   display: grid;
+          //   gap: 10px;
+          //   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+          // }
           .connect-buttons button {
             width: 100%;
             height: 4rem;
