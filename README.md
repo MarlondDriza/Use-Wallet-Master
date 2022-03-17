@@ -5,3 +5,6 @@ engl
 chinese
 tur
 master
+star
+edit file
+russian
